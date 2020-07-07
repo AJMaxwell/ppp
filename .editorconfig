@@ -1,0 +1,32 @@
+# EditorConfig
+### Tells editor this is the only .editorconfig file it should follow
+root = true
+
+# Default config
+[**]
+charset = utf-8
+end_of_line = lf
+indent_size = 2
+indent_style = tab
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# Filetype config
+## Blade PHP
+[**.blade.php]
+insert_final_newline = false
+
+## Markdown
+[**.md]
+insert_final_newline = false
+
+## YAML
+[**.yml]
+indent_size = 2
+indent_style = space
+
+## Individual File config
+## ESLint configuration
+[.eslintrc]
+indent_size = 2
+indent_style = space
